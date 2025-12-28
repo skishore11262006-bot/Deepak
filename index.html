@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio — Your Name</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#">
+          <img src="assets/logo.svg" alt="Kishore logo" width="36" height="36" />
+          <span class="brand">Kishore</span>
+        </a>
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1>Hi — I'm Kishore</h1>
+          <p class="tagline">Full‑stack developer — React, Node.js, TypeScript. I build fast, accessible web apps and delightful interfaces.</p>
+          <p><a class="btn" href="#projects">See my work</a></p>
+        </div>
+      </section>
+
+      <section id="about" class="split container">
+        <div class="about-text">
+          <h2>About</h2>
+          <p>I'm Kishore, a full‑stack developer focused on building performant, accessible web applications. I enjoy turning complex problems into simple, delightful user experiences. My stack: React, TypeScript, Node.js, and modern CSS.</p>
+        </div>
+        <div class="about-stats">
+          <h3>Skills</h3>
+          <ul>
+            <li>React &amp; TypeScript</li>
+            <li>Node.js &amp; APIs</li>
+            <li>Design systems &amp; accessibility</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="projects" class="projects container">
+        <h2>Projects</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Portfolio Website</h3>
+            <p>Personal site built with clean HTML, CSS and JS. Focus on accessibility and performance.</p>
+            <p><a href="#" class="muted">View source</a></p>
+          </article>
+          <article class="card">
+            <h3>TaskFlow</h3>
+            <p>Collaborative task manager using React and Node.js with real‑time updates and offline-first sync.</p>
+            <p><a href="#" class="muted">Live demo</a></p>
+          </article>
+          <article class="card">
+            <h3>WeatherViz</h3>
+            <p>Interactive data viz for weather trends. Built with D3 and accessible visual designs.</p>
+            <p><a href="#" class="muted">Explore</a></p>
+          </article>
+        </div>
+      </section>
+
+      <section id="contact" class="container contact">
+        <h2>Contact</h2>
+        <form id="contactForm" class="contact-form">
+          <label>
+            Name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="5" required></textarea>
+          </label>
+          <div class="form-row">
+            <button type="submit" class="btn">Send</button>
+            <a class="muted" href="mailto:kishore@example.com">Or email: kishore@example.com</a>
+          </div>
+          <p class="social">Find me: <a class="muted" href="#">GitHub</a> • <a class="muted" href="#">LinkedIn</a></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>© <span id="year"></span> Your Name — Built with care.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Kishore logo">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00c2a8"/>
+      <stop offset="100%" stop-color="#6ee7b7"/>
+    </linearGradient>
+    <filter id="s" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#002233" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+  <g filter="url(#s)">
+    <circle cx="60" cy="60" r="48" fill="url(#g)" />
+    <path d="M40 32 L72 60 L40 88" fill="none" stroke="#042028" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

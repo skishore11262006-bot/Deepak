@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1700" viewBox="0 0 1200 1700" role="img" aria-label="Kishore portfolio poster">
+  <defs>
+    <linearGradient id="pg" x1="0" x2="1">
+      <stop offset="0%" stop-color="#071330" />
+      <stop offset="100%" stop-color="#00273f" />
+    </linearGradient>
+    <linearGradient id="ag" x1="0" x2="1">
+      <stop offset="0%" stop-color="#00c2a8"/>
+      <stop offset="100%" stop-color="#6ee7b7"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" fill="url(#pg)" />
+  <g transform="translate(80,140)">
+    <image href="assets/logo.svg" x="0" y="0" width="120" height="120" />
+    <text x="160" y="70" font-family="Inter, Arial, sans-serif" font-size="64" fill="#eaf6f4">Kishore</text>
+    <text x="160" y="120" font-family="Inter, Arial, sans-serif" font-size="28" fill="#9fb0c6">Full‑stack developer • React • Node.js • TypeScript</text>
+
+    <g transform="translate(0,200)">
+      <rect x="0" y="0" width="1040" height="420" rx="18" fill="rgba(255,255,255,0.02)" stroke="rgba(255,255,255,0.03)"/>
+      <text x="40" y="60" font-family="Inter, Arial, sans-serif" font-size="36" fill="#eaf6f4">Highlighted Projects</text>
+
+      <text x="40" y="120" font-family="Inter, Arial, sans-serif" font-size="22" fill="#c7d7e6">Portfolio Website — Clean, accessible personal site.</text>
+      <text x="40" y="160" font-family="Inter, Arial, sans-serif" font-size="22" fill="#c7d7e6">TaskFlow — Real‑time collaborative task manager.</text>
+      <text x="40" y="200" font-family="Inter, Arial, sans-serif" font-size="22" fill="#c7d7e6">WeatherViz — Interactive D3 visualizations.</text>
+    </g>
+
+    <text x="0" y="720" font-family="Inter, Arial, sans-serif" font-size="20" fill="#9fb0c6">Contact: kishore@example.com  •  GitHub: /kishore  •  LinkedIn: /in/kishore</text>
+    <rect x="0" y="760" width="360" height="6" rx="3" fill="url(#ag)" />
+  </g>
+</svg>
